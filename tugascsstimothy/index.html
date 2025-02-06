@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Warkop Timo - Restoran Tradisional Indonesia</title>
+    <!-- icon -->
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/3170/3170733.png" type="image/png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- google font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <!-- css -->
+   <link rel="stylesheet" href="style.css">
+     
+    
+</head>
+<body>
+    <header>
+        <h1><i class="fas fa-utensils"></i> Warkop Timo</h1>
+        <p>Restoran Tradisional Indonesia di Batam</p>
+        <nav>
+                    <a href="#home"><i class="fas fa-home"></i> Home</a>
+                    <a href="#menu"><i class="fas fa-pizza-slice"></i> Menu</a>
+                    <a href="#contact"><i class="fas fa-envelope"></i> Contact</a>
+                </nav>
+    </header>
+
+    <main>
+        <aside>
+            <h2 style="text-align: center;"><i class="fas fa-info-circle"></i> Informasi Restoran</h2>
+            <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80" alt="Interior Restoran Warkop Timo" style="width:100%; max-height:300px; object-fit:cover;">
+            
+            <h3>Tentang Kami</h3>
+            <p>Restoran modern dengan makanan berkualitas dan harga terjangkau, menggunakan desain interior kontemporer.</p>
+            
+            <h3><i class="fas fa-clock"></i> Jam Buka</h3>
+            <p>Senin - Minggu: 10:00 - 22:00</p>
+            
+            <h3><i class="fas fa-map-marker-alt"></i> Lokasi</h3>
+            <p>Batam, Indonesia</p>
+
+            <div class="special-menu">
+                <h3> Promo Spesial Bulan Ini</h3>
+                <p>Diskon 20% untuk pemesanan di atas Rp 100.000</p>
+            </div>
+        </aside>
+
+        <article>
+            <section id="menu">
+                <h2 style="text-align: center;"><i class="fas fa-utensils"></i> Menu Makanan</h2>
+                <div class="menu-grid">
+                    <div class="menu-card">
+                        <img src="assets/piscok.jpg" alt="Pisang Cokelat">
+                        <div class="card-content">
+                            <h3>Pisang Cokelat</h3>
+                            <p class="price">Rp 20.000</p>
+                            <button class="order-btn">
+                                <i class="fas fa-shopping-cart"></i> Pesan
+                            </button>
+                        </div>
+                    </div>
+                    <div class="menu-card">
+                        <img src="assets/9482ab2e248d249e7daa7fd6924c8d3b.jpg" alt="Nasi Goreng">
+                        <div class="card-content">
+                            <h3>Nasi Goreng Spesial</h3>
+                            <p class="price">Rp 25.000</p>
+                            <button class="order-btn">
+                                <i class="fas fa-shopping-cart"></i> Pesan
+                            </button>
+                        </div>
+                    </div>
+                    <div class="menu-card">
+                        <img src="assets/kfc.jpg" alt="Ayam kfc">
+                        <div class="card-content">
+                            <h3>Ayam KFC</h3>
+                            <p class="price">Rp 30.000</p>
+                            <button class="order-btn">
+                                <i class="fas fa-shopping-cart"></i> Pesan
+                            </button>
+                        </div>
+                    </div>
+                    
+                </div>
+            </section>
+        </article>
+   
+    <section id="kontak">
+        <div class="contact-form">
+            <h2>Hubungi Kami</h2>
+            <form action="action_page.php" method="post">
+                <input type="text" name="nama" placeholder="Nama Lengkap" required>
+                <input type="email" name="email" placeholder="Email" required>
+                <select name="kategori">
+                    <option value="">Pilih Kategori</option>
+                    <option value="makanan">Makanan</option>
+                    <option value="minuman">Minuman</option>
+                    <option value="lain">Lainnya</option>
+                </select>
+                <textarea name="pesan" placeholder="Pesan Anda" required></textarea>
+                <input type="submit" value="Kirim Pesan">
+            </form>
+        </div>
+    </section>
+</main>
+
+    <footer>
+        <p>&copy; 2025 Warkop Timo, Hak Cipta Dilindungi</p>
+      
+        <p>Kontak: +62 812-3456-7890 | Email: info@warkoptimo.com</p>
+        <p>Berlokasi di Batam, Indonesia</p>
+    </footer>
+</body>
+</html>

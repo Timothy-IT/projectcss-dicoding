@@ -77,13 +77,6 @@ Anda dapat mengubah:
 
 Project ini dibuat untuk submission kelas Dicoding dan dilindungi hak cipta.
 
-## 🙋‍♂️ Author
-
-- Nama: [Nama Anda]
-- Kelas: Belajar Dasar Pemrograman Web
-- Email: [email Anda]
-- Website: [website Anda]
-
 ## 🙏 Acknowledgments
 
 - Dicoding Indonesia
